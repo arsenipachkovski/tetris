@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <main>
+    <div class="died">
+      <h1>YOU DIED :/</h1>
+      <div class="blink">Press enter to restart</div>
+    </div>
+    <div class="menu">
+      <h1>
+        <span>T</span>
+        <span>E</span>
+        <span>T</span>
+        <span>R</span>
+        <span>I</span>
+        <span>S</span>
+      </h1>
+      <nav>
+        <ul>
+          <li id="start">START</li>
+          <li id="reset">RESET</li>
+        </ul>
+      </nav>
+      <div class="howto blink">
+        <h3>Controls</h3>
+        <div class="key"><i class="fas fa-arrow-left"></i> Move left</div>
+        <div class="key"><i class="fas fa-arrow-right"></i> Move right</div>
+        <div class="key"><i class="fas fa-arrow-up"></i> Rotate</div>
+        <div class="key"><i class="fas fa-arrow-down"></i>Move down (faster)</div>
+        <div class="key"><span>P</span> Pause / Resume</div>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </main>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
